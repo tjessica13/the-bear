@@ -90,3 +90,18 @@ h3 {
 .about p {
     font-size: 28px;
 }
+
+.footer {
+    border: solid;
+    border-width: 1px 0px 1px 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer .socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
