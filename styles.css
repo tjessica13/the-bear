@@ -85,6 +85,7 @@ button:hover {
 h3 {
     margin-top: 0;
     font-size: 40px;
+    text-align: center;
 }
 
 .about p {
@@ -104,4 +105,51 @@ h3 {
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+/*Careers page*/
+
+.header {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid;
+}
+
+.header p {
+    font-size: 86px;
+}
+
+.career p {
+    text-align: center;
+    margin: 40px;
+    padding: 20px;
+    font-size: 26px;
+}
+
+.role-container {
+    border: 1px solid;
+    margin: 60px;
+    padding: 30px;
+}
+
+.role-details {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.role-details p, .role-details h3 {
+    margin: 0;
+}
+
+.role-container p {
+    text-align: start;
+}
+
+.role-container .apply {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
