@@ -47,8 +47,8 @@ button {
 }
 
 button:hover {
-    color: white;
-    background-color: black;
+    color: aliceblue;
+    background-color: rgb(9, 9, 113);
 }
 
 .reviews {
@@ -131,6 +131,8 @@ h3 {
     padding-top: 100px;
     padding-bottom: 100px;
     border-bottom: 1px solid;
+    background-color: rgb(9, 9, 113);
+    color: aliceblue;
 }
 
 .header p {
